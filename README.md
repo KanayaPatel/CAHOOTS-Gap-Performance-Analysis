@@ -57,14 +57,14 @@ Produces `diff_in_diff.png`, a difference-in-differences plot showing how the vo
 
 > Note: This file uses both of the cleaned files above. Run ```clean_data.ipynb``` first.
 
-> Note: This file is incomplete.
+> Note: Figure has been made but explanations not yet added.
 
 ### 3. `outcome_analysis.ipynb`
 Produces a KDE distribution plot, `KDE_outcome.png`, showing how the number of arrests made during welfare checks changed after CAHOOTS was disbanded.
 
 > Note: This file uses both cleaned files above. Run ```clean_data.ipynb``` first.
 
-> Note: This file is incomplete.
+> Note: Figure has been made but explanations not yet added.
 
 ---
 *README will be updated as more files are created.*
