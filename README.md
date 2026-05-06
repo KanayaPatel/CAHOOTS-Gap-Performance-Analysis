@@ -44,6 +44,9 @@ DSiA/
 
 Ensure that Python 3.13 is installed on your device. Then, open a PowerShell terminal and navigate to the DSiA directory. Run the following command to install all required packages: ```pip install -r "requirements.txt"```
 
+As an additional requirement, make sure to have Jupyter Notebook installed on your device (all of the actual files are notebooks!). 
+Here is a tutorial to install Jupyter Notebook: [INSTALL JUPYTER](https://jupyter.org/install)
+
 ## How to Run
 Before running any files, ensure you have read and completed all steps in the [Setup and Installation](#setup-and-installation) section.
 
