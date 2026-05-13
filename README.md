@@ -35,8 +35,8 @@ DSiA/
 ├── cleaned_spd.csv                         !- This file is re-generated when running files -!
 ├── clean_data.ipynb
 ├── diff_in_diff.png                        !- This file is re-generated when running files -!
-├── eugene_KDE_outcome.png                  !- This file is -regenerated when running files -!
-├── springfield_KDE_outcome.png             !- This file is -regenerated when running files -!
+├── eugene_KDE_outcome.png                  !- This file is re-generated when running files -!
+├── springfield_KDE_outcome.png             !- This file is re-generated when running files -!
 └── requirements.txt
 ```
 > Note: The cleaned .csv files are intentionally located in the root directory, not in data/.
