@@ -31,12 +31,13 @@ DSiA/
 │   ├── EugeneCAD2024noloc.csv
 │   ├── EugeneCAD2025noloc.csv
 │   └── MCSLC.xlsx
+├── clean_data.ipynb
+├── volume_analysis.ipynb
+├── outcome_analysis.ipynb
 ├── cleaned_eug.csv                         !- This file is re-generated when running files -!
 ├── cleaned_spd.csv                         !- This file is re-generated when running files -!
-├── clean_data.ipynb
-├── diff_in_diff.png                        !- This file is re-generated when running files -!
-├── eugene_KDE_outcome.png                  !- This file is re-generated when running files -!
-├── springfield_KDE_outcome.png             !- This file is re-generated when running files -!
+├── diff_in_diff_volume.png                 !- This file is re-generated when running files -!
+├── diff_in_diff_outcome.png                !- This file is re-generated when running files -!
 └── requirements.txt
 ```
 > Note: The cleaned .csv files are intentionally located in the root directory, not in data/.
@@ -54,15 +55,16 @@ Before running any files, ensure you have read and completed all steps in the [S
 ### 1. `clean_data.ipynb`
 Cleans the raw data and produces three output files in the root directory:
 - `cleaned_eug.csv` — Eugene CAD data including CAHOOTS calls
-- `cleaned_spd.csv` — Springfield call data
+- `cleaned_spd.csv` — Springfield call data + outcome data
 
 ### 2. `volume_analysis.ipynb`
-Produces `diff_in_diff.png`, a difference-in-differences plot showing how the volume of welfare check calls changed after CAHOOTS was defunded. Springfield is used as a control, as they still have their version of CAHOOTS.
+Produces `diff_in_diff_volume.png`, a difference-in-differences plot showing how the volume of welfare check calls changed after CAHOOTS was defunded. Springfield is used as a control, as they still have their version of CAHOOTS.
 
 > Note: This file uses both of the cleaned files above. Run ```clean_data.ipynb``` first.
 
 ### 3. `outcome_analysis.ipynb`
-Produces KDE distribution plots, `eugene_KDE_outcome.png` and `springfield_KDE_outcome.png`, showing how the number of arrests made during welfare checks changed after CAHOOTS was disbanded in both cities.
+Produces `diff_in_diff_volume.png`, showing how the number of arrests made during welfare checks changed after CAHOOTS was disbanded in both cities. Springfield is used as a control, as they still have their version of CAHOOTS.
+
 
 > Note: This file uses both cleaned files above. Run ```clean_data.ipynb``` first.
 
