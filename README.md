@@ -1,4 +1,4 @@
-# DSiA Project
+# CAHOOTS Gap Analysis
 Project completed in Rori Rolfs' DSCI410L (Data Science in Action) Course @ University of Oregon, 2026
 
 ## Overview
