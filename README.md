@@ -1,5 +1,5 @@
 # DSiA Project
-Project done in Rori Rolfs' DSCI410L (Data Science in Action) Course @ University of Oregon, 2026
+Project completed in Rori Rolfs' DSCI410L (Data Science in Action) Course @ University of Oregon, 2026
 
 ## Overview
 
@@ -69,6 +69,13 @@ Produces `diff_in_diff_volume.png`, showing how the number of arrests made durin
 > Note: This file uses both cleaned files above. Run ```clean_data.ipynb``` first.
 
 ---
-*README will be updated as more files are created.*
+This project is complete as of June 2nd, 2026 (6/2/26). Below are key findings. 
+- After CAHOOTS was defunded, there was a statstically significant drop in the weekly volume of welfare check calls. Through difference-in-differences, the counterfactual says there should be substantially more. 
+- After CAHOOTS was defunded, there was a statistically significant rise in the volume of welfare check calls that end in an arrest being made by the responding unit (in this case, EPD). Through difference-in-differences, the counterfactual says there should be less arrests coming from welfare check calls.
+- Through both analyses, Springfields numbers remained relatively the same before and after. 
 
+> Note: Each difference-in-differences passed the parallel trends test visually ONLY. Therefore, no causal inferences can be made.
+---
+For purposes of replication, each file that was used is included in this repository as well as a report written to show the entire process of this research. 
+---
 Questions? Feel free to email me at kanaya.patel97402@gmail.com
